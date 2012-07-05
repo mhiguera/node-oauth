@@ -21,9 +21,9 @@ onLogin = function(error, request, response) {
   else {
     // you are now authorized!
     var token = request.session.OAuthAccessToken;
-    var tokenSecret = request.session.OAuthAccessTokenSecret
-    var params = { test: 1 }
-    var options = {}
+    var tokenSecret = request.session.OAuthAccessTokenSecret;
+    var params = { test: 1 };
+    var options = {};
     oauth.get(url, token, tokenSecret, params, {}, function(error, success) {
       //
     });
