@@ -5,7 +5,7 @@ node-oauth
 How to use it
 -------------
 
-```
+```javascript
 CONSUMER_KEY = "your_consumer_key";
 CONSUMER_SECRET = "your_consumer_secret";
 CALLBACK_URL = "http://application/callback";
